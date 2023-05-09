@@ -1,0 +1,40 @@
+.navItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navItems .logo {
+    font-size: 1.5rem;
+    color: red;
+}
+
+.navItems .navLink {
+    font-size: 1rem;
+    color: white;
+    background-color: indianred;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px 10px;
+    display: inline-block;
+    width: 80px;
+}
+
+.navItems .navLink:hover {
+    background-color: red;
+}
+
+.navItems .cartCount {
+    font-size: 1rem;
+    color: white;
+    background-color: green;
+    margin: 5px;
+    padding: 5px 10px;
+    width: 100px;
+}
+
+.navItems .cartCount:hover {
+    background-color: lime;
+    color: red;
+    cursor: pointer;
+}
